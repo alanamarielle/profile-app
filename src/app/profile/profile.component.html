@@ -1,0 +1,15 @@
+<div class="body">
+  <main class="main">
+    <img
+      alt="young alana at the computer"
+      class="alana-pic"
+      src="https://lh3.googleusercontent.com/Cv4jwjLKcg_iaBP7Q7A65TYi8OdnsdMWcxCXlx2Ekc0gvgznfv-s5CDtVndg4ugamx68p1xnYU4mrN7p7SPOaX1YB_M_VGBFEgqoQiLL0tlajkeeyKP4GpUM64XUnpdFe1SVZei4ZQ=w600-h315-p-k"
+    />
+    <div class="user-info">
+      <h1 class="name">{{ userProfile.name }}</h1>
+      <p class="email">{{ userProfile.contact }}</p>
+      <p class="bio">{{ userProfile.bio }}</p>
+    </div>
+    <a class="button" [routerLink]="['/edit']">Edit</a>
+  </main>
+</div>

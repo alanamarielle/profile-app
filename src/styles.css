@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+p,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+.body {
+  display: flex;
+  justify-content: center;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  font-family: "Work Sans", sans-serif;
+  box-shadow: 0px 0px 10px 0px rgba(204, 204, 204, 1);
+  width: 400px;
+  border-radius: 15px;
+}
+.button {
+  font-family: "Work Sans", sans-serif;
+  border: none;
+  color: #eee;
+  padding: 14px;
+  margin: 14px;
+  text-align: center;
+  border-radius: 15px;
+  text-decoration: none;
+  background-color: #c083dd;
+}
+.button:hover {
+  background-color: #b9dfda;
+}

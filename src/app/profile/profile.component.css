@@ -1,0 +1,22 @@
+.alana-pic {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  flex: 2;
+  width: 400px;
+}
+.user-info {
+  padding-left: 10px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  padding: 10px;
+}
+.email {
+  color: gray;
+  padding: 10px;
+}
+.bio {
+  padding: 10px;
+}

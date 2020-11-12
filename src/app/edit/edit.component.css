@@ -1,0 +1,16 @@
+.main {
+  padding: 10px;
+}
+.form {
+  font-weight: 700;
+  display: flex;
+  color: #c083dd;
+  flex-direction: column;
+}
+input,
+textarea {
+  padding: 14px;
+  margin: 14px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
